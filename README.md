@@ -1,6 +1,7 @@
 # COCCO
 
-# Repository Structure
+
+## Repository Structure
 This repository contains the following resources:
 
 The COCCO Ontology in RDF/Turtle, RDF/XML and JSON
