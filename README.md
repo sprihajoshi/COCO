@@ -4,7 +4,7 @@
 ## Repository Structure
 This repository contains the following resources:
 
-The COCO Ontology in [RDF/Turtle](COCO\ontology\COCO_Turtle.ttl), [RDF/XML](https://github.com/sprihajoshi/COCO/blob/6c7a7dd42b389d4416dab944318391b85d7239f0/ontology/COCO_RDF_XML.rdf) and [JSON](ontology/COCO_JSON.jsonld) \
+The COCO Ontology in [RDF/Turtle](ontology/COCO_Turtle.ttl), [RDF/XML](ontology/COCO_RDF.rdf) and [JSON](ontology/COCO_JSON.jsonld) \
 Ontology [Documentation and corresponding visualizations](https://github.com/sprihajoshi/COCO/tree/6c7a7dd42b389d4416dab944318391b85d7239f0/documentation)
 
 [Evaluation Results (competency questions + queries)](https://github.com/sprihajoshi/COCO/blob/c6c133a99aca3f7a9b7d088a9c7e219dc310ead8/documentation/Validation.md) \
