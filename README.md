@@ -1,4 +1,4 @@
-# COCCO
+# COCO: Ontology for Organized Cybercrime
 
 
 ## Repository Structure
