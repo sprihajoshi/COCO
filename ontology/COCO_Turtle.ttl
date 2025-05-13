@@ -1,0 +1,980 @@
+@prefix : <http://www.semanticweb.org/p70089376/ontologies/2025/3/coco/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cocco: <http://www.semanticweb.org/p70089376/ontologies/2025/3/cocco#> .
+@base <http://www.semanticweb.org/p70089376/ontologies/2025/3/coco/> .
+
+<http://www.semanticweb.org/p70089376/ontologies/2025/3/coco> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#acronym
+:acronym rdf:type owl:AnnotationProperty ;
+         rdfs:subPropertyOf rdfs:comment .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#OOisPartOf
+:OOisPartOf rdf:type owl:ObjectProperty ,
+                     owl:TransitiveProperty ;
+            rdfs:domain :Objects ;
+            rdfs:range :Objects .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#PPisPartOf
+:PPisPartOf rdf:type owl:ObjectProperty ,
+                     owl:TransitiveProperty ;
+            rdfs:domain :Process ;
+            rdfs:range :Process .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf
+:RRisPartOf rdf:type owl:ObjectProperty ,
+                     owl:TransitiveProperty ;
+            rdfs:domain :Role ;
+            rdfs:range :Role .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent
+:hasAgent rdf:type owl:ObjectProperty ;
+          rdfs:domain :Process ;
+          rdfs:range :Role .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasFeature
+:hasFeature rdf:type owl:ObjectProperty ;
+            rdfs:domain :SpatialObject ;
+            rdfs:range :Feature .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant
+:hasParticipant rdf:type owl:ObjectProperty ;
+                rdfs:domain :Process ;
+                rdfs:range :Objects .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole
+:hasRole rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :SpatialObject ;
+         rdfs:range :Role .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#precedes
+:precedes rdf:type owl:ObjectProperty ,
+                   owl:TransitiveProperty ;
+          rdfs:domain :Process ;
+          rdfs:range :Process .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevice_brand
+:ElectronicDevice_brand rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :ElectronicDevices ;
+                        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevice_model
+:ElectronicDevice_model rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :ElectronicDevices ;
+                        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#IBAN
+:IBAN rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdfs:domain :BankAccountInformation ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#age
+:age rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Person ;
+     rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#amount
+:amount rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Impact ;
+        rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#authentication_code
+:authentication_code rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :VisitingActivity ;
+                     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankcard_number
+:bankcard_number rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :BankAccountCard ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#city_name
+:city_name rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :ResidentialInformation ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#date_of_birth
+:date_of_birth rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Person ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#email_address
+:email_address rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Person ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_date
+:event_date rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Process ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_time
+:event_time rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Process ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#first_name
+:first_name rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Person ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#last_name
+:last_name rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Person ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nationality
+:nationality rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Person ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nick_name
+:nick_name rdf:type owl:DatatypeProperty ;
+           rdfs:domain [ rdf:type owl:Class ;
+                         owl:unionOf ( :CriminalGroup
+                                       :Person
+                                     )
+                       ] ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#phone_number
+:phone_number rdf:type owl:DatatypeProperty ;
+              rdfs:domain :ContactInformation ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#physical_appearance_description
+:physical_appearance_description rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain :Person ;
+                                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#plot_number
+:plot_number rdf:type owl:DatatypeProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :ATM
+                                         :ResidentialInformation
+                                       )
+                         ] ;
+             rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#postcode
+:postcode rdf:type owl:DatatypeProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :ATM
+                                      :ResidentialInformation
+                                    )
+                      ] ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#province
+:province rdf:type owl:DatatypeProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :ATM
+                                      :ResidentialInformation
+                                    )
+                      ] ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#story
+:story rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdfs:domain :Story ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#street_name
+:street_name rdf:type owl:DatatypeProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :ATM
+                                         :ResidentialInformation
+                                       )
+                         ] ;
+             rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM
+:ATM rdf:type owl:Class ;
+     rdfs:subClassOf :SpatialObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#AccountManipulaiton
+:AccountManipulaiton rdf:type owl:Class ;
+                     rdfs:subClassOf :Process .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Bank
+:Bank rdf:type owl:Class ;
+      rdfs:subClassOf :SpatialObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountCard
+:BankAccountCard rdf:type owl:Class ;
+                 rdfs:subClassOf :BankAccountInformation .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountCardReader
+:BankAccountCardReader rdf:type owl:Class ;
+                       rdfs:subClassOf :BankAccountCard .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountInformation
+:BankAccountInformation rdf:type owl:Class ;
+                        rdfs:subClassOf :InformationObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankTransferActivity
+:BankTransferActivity rdf:type owl:Class ;
+                      rdfs:subClassOf :Impact .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankTransferMaker
+:BankTransferMaker rdf:type owl:Class ;
+                   rdfs:subClassOf :CriminalGroup .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CallingActivity
+:CallingActivity rdf:type owl:Class ;
+                 rdfs:subClassOf :InitialContact .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ChangeLimitsActivity
+:ChangeLimitsActivity rdf:type owl:Class ;
+                      rdfs:subClassOf :AccountManipulaiton .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CollectingActivity
+:CollectingActivity rdf:type owl:Class ;
+                    rdfs:subClassOf :VisitingActivity .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Collector
+:Collector rdf:type owl:Class ;
+           rdfs:subClassOf :CriminalGroup .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ContactInformation
+:ContactInformation rdf:type owl:Class ;
+                    rdfs:subClassOf :InformationObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Contacter
+:Contacter rdf:type owl:Class ;
+           rdfs:subClassOf :CriminalGroup .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CredentialAccessActivity
+:CredentialAccessActivity rdf:type owl:Class ;
+                          rdfs:subClassOf :Process .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup
+:CriminalGroup rdf:type owl:Class ;
+               rdfs:subClassOf :Role .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Developer
+:Developer rdf:type owl:Class ;
+           rdfs:subClassOf :CriminalGroup .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#DownloadSoftwareActivity
+:DownloadSoftwareActivity rdf:type owl:Class ;
+                          rdfs:subClassOf :GainDeviceAccessActivity .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevices
+:ElectronicDevices rdf:type owl:Class ;
+                   rdfs:subClassOf :InformationObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#EmailActivity
+:EmailActivity rdf:type owl:Class ;
+               rdfs:subClassOf :InitialContact .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Evidence
+:Evidence rdf:type owl:Class ;
+          rdfs:subClassOf :InformationObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Feature
+:Feature rdf:type owl:Class ;
+         rdfs:subClassOf :Objects ;
+         owl:disjointWith :SpatialObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainDeviceAccessActivity
+:GainDeviceAccessActivity rdf:type owl:Class ;
+                          rdfs:subClassOf :CredentialAccessActivity .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainOTPActivity
+:GainOTPActivity rdf:type owl:Class ;
+                 rdfs:subClassOf :CredentialAccessActivity .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainTrustActivity
+:GainTrustActivity rdf:type owl:Class ;
+                   rdfs:subClassOf :Process .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Impact
+:Impact rdf:type owl:Class ;
+        rdfs:subClassOf :Process .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InformationObject
+:InformationObject rdf:type owl:Class ;
+                   rdfs:subClassOf :Feature ;
+                   owl:disjointWith :Role .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InitialContact
+:InitialContact rdf:type owl:Class ;
+                rdfs:subClassOf :Process .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Laptop
+:Laptop rdf:type owl:Class ;
+        rdfs:subClassOf :ElectronicDevices .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MessageActivity
+:MessageActivity rdf:type owl:Class ;
+                 rdfs:subClassOf :InitialContact .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Mobile
+:Mobile rdf:type owl:Class ;
+        rdfs:subClassOf :ElectronicDevices .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MoneyMule
+:MoneyMule rdf:type owl:Class ;
+           rdfs:subClassOf :CriminalGroup .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Objects
+:Objects rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Organisation
+:Organisation rdf:type owl:Class ;
+              rdfs:subClassOf :SpatialObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person
+:Person rdf:type owl:Class ;
+        rdfs:subClassOf :SpatialObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process
+:Process rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Recruiter
+:Recruiter rdf:type owl:Class ;
+           rdfs:subClassOf :CriminalGroup .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ResidentialInformation
+:ResidentialInformation rdf:type owl:Class ;
+                        rdfs:subClassOf :InformationObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role
+:Role rdf:type owl:Class ;
+      rdfs:subClassOf :Feature .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ShareAccessActivity
+:ShareAccessActivity rdf:type owl:Class ;
+                     rdfs:subClassOf :CredentialAccessActivity .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Software
+:Software rdf:type owl:Class ;
+          rdfs:subClassOf :InformationObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#SpatialObject
+:SpatialObject rdf:type owl:Class ;
+               rdfs:subClassOf :Objects .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Story
+:Story rdf:type owl:Class ;
+       rdfs:subClassOf :StoryType .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#StoryType
+:StoryType rdf:type owl:Class ;
+           rdfs:subClassOf :InformationObject .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Tablet
+:Tablet rdf:type owl:Class ;
+        rdfs:subClassOf :ElectronicDevices .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Victim
+:Victim rdf:type owl:Class ;
+        rdfs:subClassOf :Role .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#VisitingActivity
+:VisitingActivity rdf:type owl:Class ;
+                  rdfs:subClassOf :GainOTPActivity .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#WithdrawingMoneyActivity
+:WithdrawingMoneyActivity rdf:type owl:Class ;
+                          rdfs:subClassOf :Impact .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Witness
+:Witness rdf:type owl:Class ;
+         rdfs:subClassOf :Role .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM1
+:ATM1 rdf:type owl:NamedIndividual ,
+               :ATM ;
+      :plot_number 23 ;
+      :street_name "Dorpstraat" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM2
+:ATM2 rdf:type owl:NamedIndividual ,
+               :ATM ;
+      :plot_number 11 ;
+      :street_name "Dorpstraat" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Anydesk
+:Anydesk rdf:type owl:NamedIndividual ,
+                  :Software .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Bankhelpdesk_Fraud
+:Bankhelpdesk_Fraud rdf:type owl:NamedIndividual ,
+                             :StoryType .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankofBohemia
+:BankofBohemia rdf:type owl:NamedIndividual ,
+                        :Bank .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankofTwente
+:BankofTwente rdf:type owl:NamedIndividual ,
+                       :Bank .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Barclays
+:Barclays rdf:type owl:NamedIndividual ,
+                   :Bank .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CEO_Fraud
+:CEO_Fraud rdf:type owl:NamedIndividual ,
+                    :StoryType .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CitiBank
+:CitiBank rdf:type owl:NamedIndividual ,
+                   :Bank .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Dorpstad
+:Dorpstad rdf:type owl:NamedIndividual ;
+          :city_name "Dorpstad" ;
+          :province "Brabant" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Fake_Anti_Virus_Fraud
+:Fake_Anti_Virus_Fraud rdf:type owl:NamedIndividual ,
+                                :StoryType .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Friend-in-need_Fraud
+:Friend-in-need_Fraud rdf:type owl:NamedIndividual ,
+                               :StoryType .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Investment_Fraud
+:Investment_Fraud rdf:type owl:NamedIndividual ,
+                           :StoryType .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#KKK
+:KKK rdf:type owl:NamedIndividual ,
+              :CriminalGroup .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MMM
+:MMM rdf:type owl:NamedIndividual ,
+              :CriminalGroup .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Whatsapp_Fraud
+:Whatsapp_Fraud rdf:type owl:NamedIndividual ,
+                         :StoryType .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#accountmanipulation
+:accountmanipulation rdf:type owl:NamedIndividual ,
+                              :AccountManipulaiton ;
+                     :PPisPartOf :changelimitsactivity1 ;
+                     :precedes :otpaccess .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount101
+:bankaccount101 rdf:type owl:NamedIndividual ,
+                         :BankAccountInformation ;
+                :OOisPartOf :BankofBohemia ;
+                :IBAN "IBAN1234" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount102
+:bankaccount102 rdf:type owl:NamedIndividual ,
+                         :BankAccountInformation ;
+                :OOisPartOf :BankofTwente ;
+                :IBAN "IBAN7890" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount201
+:bankaccount201 rdf:type owl:NamedIndividual ,
+                         :BankAccountInformation ;
+                :OOisPartOf :Barclays ;
+                :IBAN "IBAN9876" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount202
+:bankaccount202 rdf:type owl:NamedIndividual ,
+                         :BankAccountInformation ;
+                :OOisPartOf :CitiBank ;
+                :IBAN "IBAN7890" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#banktransfer101
+:banktransfer101 rdf:type owl:NamedIndividual ,
+                          :BankTransferActivity ;
+                 :hasAgent :transfermaker101 ;
+                 :hasParticipant :bankaccount101 ,
+                                 :bankaccount102 ;
+                 :amount 550.00 ;
+                 :event_time "15:28" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#banktransfer201
+:banktransfer201 rdf:type owl:NamedIndividual ,
+                          :BankTransferActivity ;
+                 :hasAgent :victim201 ;
+                 :hasParticipant :bankaccount201 ,
+                                 :bankaccount202 .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#callingactivity1
+:callingactivity1 rdf:type owl:NamedIndividual ,
+                           :CallingActivity ;
+                  :hasAgent :contacter101 ,
+                            :victim101 ;
+                  :hasParticipant :story ;
+                  :event_date "06/05/2024" ;
+                  :event_time "14:14" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#cashwithdrawal101
+:cashwithdrawal101 rdf:type owl:NamedIndividual ,
+                            :WithdrawingMoneyActivity ;
+                   :hasAgent :collector101 ;
+                   :hasParticipant :ATM1 ;
+                   :amount 550.00 ;
+                   :event_time "15:37" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#cashwithdrawal102
+:cashwithdrawal102 rdf:type owl:NamedIndividual ,
+                            :WithdrawingMoneyActivity ;
+                   :hasAgent :collector101 ;
+                   :hasParticipant :ATM2 ;
+                   :amount 450.00 ;
+                   :event_time "15:22" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#changelimitsactivity1
+:changelimitsactivity1 rdf:type owl:NamedIndividual ,
+                                :ChangeLimitsActivity ;
+                       :hasAgent :contacter101 ;
+                       :hasParticipant :bankaccount101 .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collectingactivity101
+:collectingactivity101 rdf:type owl:NamedIndividual ,
+                                :CollectingActivity ;
+                       :hasAgent :collector101 ;
+                       :hasParticipant :debitcard101 .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collector101
+:collector101 rdf:type owl:NamedIndividual ,
+                       :Collector ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter101
+:contacter101 rdf:type owl:NamedIndividual ,
+                       :Contacter ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter201
+:contacter201 rdf:type owl:NamedIndividual ,
+                       :Contacter ;
+              :RRisPartOf :MMM .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#credentialaccess
+:credentialaccess rdf:type owl:NamedIndividual ,
+                           :CredentialAccessActivity ;
+                  :PPisPartOf :screenshareactivity1 ;
+                  :precedes :accountmanipulation .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#debitcard101
+:debitcard101 rdf:type owl:NamedIndividual ,
+                       :BankAccountCard ;
+              :bankcard_number "NL1234567890" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#debitcard_reader101
+:debitcard_reader101 rdf:type owl:NamedIndividual ,
+                              :BankAccountCardReader .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#developer101
+:developer101 rdf:type owl:NamedIndividual ,
+                       :Developer ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#downloadsoftware101
+:downloadsoftware101 rdf:type owl:NamedIndividual ,
+                              :DownloadSoftwareActivity ;
+                     :hasAgent :victim101 ;
+                     :hasParticipant :Anydesk .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#dummycall
+:dummycall rdf:type owl:NamedIndividual ,
+                    :CallingActivity ;
+           :hasAgent :dummycontact .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#dummycontact
+:dummycontact rdf:type owl:NamedIndividual ,
+                       :Contacter ;
+              :RRisPartOf :MMM .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#establishtrust
+:establishtrust rdf:type owl:NamedIndividual ,
+                         :GainTrustActivity ;
+                :hasParticipant :story ;
+                :precedes :credentialaccess .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#establishtrust2
+:establishtrust2 rdf:type owl:NamedIndividual ,
+                          :GainTrustActivity ;
+                 :hasParticipant :story2 .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#home101
+:home101 rdf:type owl:NamedIndividual ,
+                  :ResidentialInformation ;
+         :city_name "Dorpstad" ;
+         :plot_number 11 ;
+         :postcode "1256AJ" ;
+         :province "Brabant" ;
+         :street_name "Dorpstraat" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#home201
+:home201 rdf:type owl:NamedIndividual ,
+                  :ResidentialInformation ;
+         :plot_number 19 ;
+         :postcode "1252KL" ;
+         :street_name "Central Perk" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#impact
+:impact rdf:type owl:NamedIndividual ,
+                 :Impact ;
+        :PPisPartOf :banktransfer101 ,
+                    :cashwithdrawal101 ,
+                    :cashwithdrawal102 .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#initialcontact
+:initialcontact rdf:type owl:NamedIndividual ,
+                         :InitialContact ;
+                :PPisPartOf :callingactivity1 ;
+                :precedes :establishtrust .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#initialcontact2
+:initialcontact2 rdf:type owl:NamedIndividual ,
+                          :InitialContact ;
+                 :PPisPartOf :messageactivity2 ;
+                 :precedes :establishtrust2 .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#laptop101
+:laptop101 rdf:type owl:NamedIndividual ,
+                    :Laptop .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#messageactivity2
+:messageactivity2 rdf:type owl:NamedIndividual ,
+                           :MessageActivity ;
+                  :hasAgent :contacter201 ,
+                            :victim201 ;
+                  :hasParticipant :story2 ;
+                  :event_date "03/04/2025" ;
+                  :event_time "11:47" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobile201
+:mobile201 rdf:type owl:NamedIndividual ,
+                    :Mobile ;
+           :ElectronicDevice_brand "Apple" ;
+           :ElectronicDevice_model "Iphone 16" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact101
+:mobilecontact101 rdf:type owl:NamedIndividual ,
+                           :ContactInformation ;
+                  :phone_number "+31101102103" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact102
+:mobilecontact102 rdf:type owl:NamedIndividual ,
+                           :ContactInformation ;
+                  :phone_number "0" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact201
+:mobilecontact201 rdf:type owl:NamedIndividual ,
+                           :ContactInformation ;
+                  :phone_number "+31345633222" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact202
+:mobilecontact202 rdf:type owl:NamedIndividual ,
+                           :ContactInformation ;
+                  :phone_number "+44 1150 67890" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#moneymule101
+:moneymule101 rdf:type owl:NamedIndividual ,
+                       :MoneyMule ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#moneymule201
+:moneymule201 rdf:type owl:NamedIndividual ,
+                       :MoneyMule ;
+              :RRisPartOf :MMM .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#otpaccess
+:otpaccess rdf:type owl:NamedIndividual ,
+                    :GainOTPActivity ;
+           :PPisPartOf :visitingactivity101 ;
+           :precedes :impact .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person101
+:person101 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :bankaccount101 ,
+                       :home101 ,
+                       :laptop101 ,
+                       :mobilecontact101 ;
+           :hasRole :victim101 ;
+           :age 76 ;
+           :first_name "Godfrey" ;
+           :last_name "Norton" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person102
+:person102 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :mobilecontact102 ;
+           :hasRole :contacter101 ;
+           :nick_name "Irene Adler" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person103
+:person103 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasRole :collector101 ;
+           :nick_name "Watson" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person104
+:person104 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :bankaccount102 ;
+           :hasRole :moneymule101 ;
+           :nick_name "unknown" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person105
+:person105 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasRole :transfermaker101 ;
+           :nick_name "Unknown" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person201
+:person201 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :bankaccount201 ,
+                       :home201 ,
+                       :mobilecontact201 ;
+           :hasRole :victim201 ;
+           :age 54 ;
+           :first_name "Joey" ;
+           :last_name "Tribbiani" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person202
+:person202 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :mobilecontact202 ;
+           :hasRole :contacter201 ;
+           :nick_name "Rachel Green" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person203
+:person203 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :bankaccount202 ;
+           :hasRole :moneymule201 ;
+           :nick_name "Mark Willems" .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#recruiter101
+:recruiter101 rdf:type owl:NamedIndividual ,
+                       :Recruiter ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#screenshareactivity1
+:screenshareactivity1 rdf:type owl:NamedIndividual ,
+                               :GainDeviceAccessActivity ;
+                      :hasAgent :contacter101 ;
+                      :hasParticipant :laptop101 .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#story
+:story rdf:type owl:NamedIndividual ,
+                :Story ;
+       :OOisPartOf :Bankhelpdesk_Fraud .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#story2
+:story2 rdf:type owl:NamedIndividual ,
+                 :Story ;
+        :OOisPartOf :Friend-in-need_Fraud .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#transfermaker101
+:transfermaker101 rdf:type owl:NamedIndividual ,
+                           :BankTransferMaker ;
+                  :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim101
+:victim101 rdf:type owl:NamedIndividual ,
+                    :Victim .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim201
+:victim201 rdf:type owl:NamedIndividual ,
+                    :Victim .
+
+
+###  http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#visitingactivity101
+:visitingactivity101 rdf:type owl:NamedIndividual ,
+                              :VisitingActivity ;
+                     :PPisPartOf :collectingactivity101 ;
+                     :hasAgent :collector101 ;
+                     :hasParticipant :home101 ;
+                     :authentication_code "A101" ;
+                     :event_time "15:10" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

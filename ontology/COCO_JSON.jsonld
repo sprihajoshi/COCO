@@ -1,0 +1,1453 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup"
+    }, {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM"
+    }, {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ResidentialInformation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM"
+    }, {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ResidentialInformation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM"
+    }, {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ResidentialInformation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM"
+    }, {
+      "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ResidentialInformation"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#SpatialObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#plot_number" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "23"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#street_name" : [ {
+    "@value" : "Dorpstraat"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#plot_number" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#street_name" : [ {
+    "@value" : "Dorpstraat"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#AccountManipulaiton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Anydesk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Software"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Bank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#SpatialObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountCard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountCardReader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountCard"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InformationObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankTransferActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Impact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankTransferMaker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Bankhelpdesk_Fraud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#StoryType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankofBohemia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Bank"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankofTwente",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Bank"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Barclays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Bank"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CEO_Fraud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#StoryType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CallingActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InitialContact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ChangeLimitsActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#AccountManipulaiton"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CitiBank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Bank"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CollectingActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#VisitingActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Collector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ContactInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InformationObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Contacter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CredentialAccessActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Developer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Dorpstad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#city_name" : [ {
+    "@value" : "Dorpstad"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#province" : [ {
+    "@value" : "Brabant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#DownloadSoftwareActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainDeviceAccessActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevice_brand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevices"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevice_model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevices"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InformationObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#EmailActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InitialContact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Evidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InformationObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Fake_Anti_Virus_Fraud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#StoryType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Objects"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#SpatialObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Friend-in-need_Fraud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#StoryType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainDeviceAccessActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CredentialAccessActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainOTPActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CredentialAccessActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainTrustActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#IBAN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountInformation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Impact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InformationObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Feature"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InitialContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Investment_Fraud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#StoryType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#KKK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Laptop",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MMM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MessageActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InitialContact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Mobile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MoneyMule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#OOisPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Objects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Objects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Objects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Organisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#SpatialObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#PPisPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#SpatialObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Recruiter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CriminalGroup"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ResidentialInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InformationObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Feature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ShareAccessActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CredentialAccessActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Software",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InformationObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#SpatialObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Objects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Story",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#StoryType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#StoryType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InformationObject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Tablet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Victim",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#VisitingActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainOTPActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Whatsapp_Fraud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#StoryType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#WithdrawingMoneyActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Impact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Witness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#accountmanipulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#PPisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#changelimitsactivity1"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#precedes" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#otpaccess"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#AccountManipulaiton"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#acronym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#age",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#amount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Impact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#authentication_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#VisitingActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#IBAN" : [ {
+    "@value" : "IBAN1234"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#OOisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankofBohemia"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#IBAN" : [ {
+    "@value" : "IBAN7890"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#OOisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankofTwente"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#IBAN" : [ {
+    "@value" : "IBAN9876"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#OOisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Barclays"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount202",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#IBAN" : [ {
+    "@value" : "IBAN7890"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#OOisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CitiBank"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankcard_number",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountCard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#banktransfer101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#amount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "550.00"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_time" : [ {
+    "@value" : "15:28"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#transfermaker101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount101"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount102"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankTransferActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#banktransfer201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim201"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount201"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount202"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankTransferActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#callingactivity1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_date" : [ {
+    "@value" : "06/05/2024"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_time" : [ {
+    "@value" : "14:14"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter101"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#story"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CallingActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#cashwithdrawal101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#amount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "550.00"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_time" : [ {
+    "@value" : "15:37"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collector101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#WithdrawingMoneyActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#cashwithdrawal102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#amount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "450.00"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_time" : [ {
+    "@value" : "15:22"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collector101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ATM2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#WithdrawingMoneyActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#changelimitsactivity1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount101"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ChangeLimitsActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#city_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ResidentialInformation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collectingactivity101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collector101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#debitcard101"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CollectingActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collector101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#KKK"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Collector"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#KKK"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Contacter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MMM"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Contacter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#credentialaccess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#PPisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#screenshareactivity1"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#precedes" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#accountmanipulation"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CredentialAccessActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#date_of_birth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#debitcard101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankcard_number" : [ {
+    "@value" : "NL1234567890"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountCard"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#debitcard_reader101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankAccountCardReader"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#developer101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#KKK"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Developer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#downloadsoftware101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Anydesk"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#DownloadSoftwareActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#dummycall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#dummycontact"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#CallingActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#dummycontact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MMM"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Contacter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#email_address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#establishtrust",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#story"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#precedes" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#credentialaccess"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainTrustActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#establishtrust2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#story2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainTrustActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#first_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#SpatialObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Feature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Objects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#SpatialObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#home101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#city_name" : [ {
+    "@value" : "Dorpstad"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#plot_number" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#postcode" : [ {
+    "@value" : "1256AJ"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#province" : [ {
+    "@value" : "Brabant"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#street_name" : [ {
+    "@value" : "Dorpstraat"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ResidentialInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#home201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#plot_number" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#postcode" : [ {
+    "@value" : "1252KL"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#street_name" : [ {
+    "@value" : "Central Perk"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ResidentialInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#impact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#PPisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#banktransfer101"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#cashwithdrawal101"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#cashwithdrawal102"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Impact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#initialcontact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#PPisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#callingactivity1"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#precedes" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#establishtrust"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InitialContact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#initialcontact2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#PPisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#messageactivity2"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#precedes" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#establishtrust2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#InitialContact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#laptop101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Laptop"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#last_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#messageactivity2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_date" : [ {
+    "@value" : "03/04/2025"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_time" : [ {
+    "@value" : "11:47"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter201"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim201"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#story2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MessageActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobile201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevice_brand" : [ {
+    "@value" : "Apple"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ElectronicDevice_model" : [ {
+    "@value" : "Iphone 16"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Mobile"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#phone_number" : [ {
+    "@value" : "+31101102103"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ContactInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#phone_number" : [ {
+    "@value" : "0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ContactInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#phone_number" : [ {
+    "@value" : "+31345633222"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ContactInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact202",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#phone_number" : [ {
+    "@value" : "+44 1150 67890"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ContactInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#moneymule101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#KKK"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MoneyMule"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#moneymule201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MMM"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#MoneyMule"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nick_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#otpaccess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#PPisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#visitingactivity101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#precedes" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#impact"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainOTPActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#age" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "76"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#first_name" : [ {
+    "@value" : "Godfrey"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasFeature" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount101"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#home101"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#laptop101"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#last_name" : [ {
+    "@value" : "Norton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasFeature" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact102"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nick_name" : [ {
+    "@value" : "Irene Adler"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collector101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nick_name" : [ {
+    "@value" : "Watson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasFeature" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount102"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#moneymule101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nick_name" : [ {
+    "@value" : "unknown"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#transfermaker101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nick_name" : [ {
+    "@value" : "Unknown"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#age" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "54"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#first_name" : [ {
+    "@value" : "Joey"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasFeature" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount201"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#home201"
+  }, {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact201"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim201"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#last_name" : [ {
+    "@value" : "Tribbiani"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person202",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasFeature" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#mobilecontact202"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter201"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nick_name" : [ {
+    "@value" : "Rachel Green"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#person203",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasFeature" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#bankaccount202"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasRole" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#moneymule201"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#nick_name" : [ {
+    "@value" : "Mark Willems"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#phone_number",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#ContactInformation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#physical_appearance_description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#plot_number",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#postcode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#precedes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Process"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#province",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#recruiter101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#KKK"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Recruiter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#screenshareactivity1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#contacter101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#laptop101"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#GainDeviceAccessActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#story",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#OOisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Bankhelpdesk_Fraud"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Story"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Story"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#story2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#OOisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Friend-in-need_Fraud"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Story"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#street_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#transfermaker101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#RRisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#KKK"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#BankTransferMaker"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Victim"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#victim201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#Victim"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#visitingactivity101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#PPisPartOf" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collectingactivity101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#authentication_code" : [ {
+    "@value" : "A101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#event_time" : [ {
+    "@value" : "15:10"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasAgent" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#collector101"
+  } ],
+  "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#hasParticipant" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#home101"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/p70089376/ontologies/2025/3/coco#VisitingActivity"
+  } ]
+} ]
