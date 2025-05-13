@@ -13,6 +13,6 @@ Use Cases: [LabHost](https://github.com/sprihajoshi/COCO/blob/b90482d2176fbaa38f
 
 [License declaration](LICENSE.md)
 
-<a href="https://github.com/sprihajoshi/COCO/blob/main/ontology/COCO_RDF.rdf">COCO: Ontology for Organized Cybercrime</a> © 2025 by <a href="https://creativecommons.org">Spriha Joshi</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<a href="https://github.com/sprihajoshi/COCO/blob/main/ontology/COCO_RDF.rdf">COCO: Ontology for Organized Cybercrime</a> © 2025 by Spriha Joshi is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
 
