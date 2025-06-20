@@ -1,0 +1,449 @@
+@prefix : <http://www.semanticweb.org/coco#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/coco#> .
+
+[ rdf:type owl:Ontology ;
+   owl:imports <http://www.semanticweb.org/coco>
+ ] .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/coco#ATM1
+:ATM1 rdf:type owl:NamedIndividual ,
+               :ATM .
+
+
+###  http://www.semanticweb.org/coco#ATM2
+:ATM2 rdf:type owl:NamedIndividual ,
+               :ATM .
+
+
+###  http://www.semanticweb.org/coco#Anydesk
+:Anydesk rdf:type owl:NamedIndividual ,
+                  :Software .
+
+
+###  http://www.semanticweb.org/coco#Bankhelpdesk_Fraud
+:Bankhelpdesk_Fraud rdf:type owl:NamedIndividual ,
+                             :StoryType .
+
+
+###  http://www.semanticweb.org/coco#BankofBohemia
+:BankofBohemia rdf:type owl:NamedIndividual ,
+                        :Bank .
+
+
+###  http://www.semanticweb.org/coco#BankofTwente
+:BankofTwente rdf:type owl:NamedIndividual ,
+                       :Bank .
+
+
+###  http://www.semanticweb.org/coco#Barclays
+:Barclays rdf:type owl:NamedIndividual ,
+                   :Bank .
+
+
+###  http://www.semanticweb.org/coco#CEO_Fraud
+:CEO_Fraud rdf:type owl:NamedIndividual ,
+                    :StoryType .
+
+
+###  http://www.semanticweb.org/coco#CitiBank
+:CitiBank rdf:type owl:NamedIndividual ,
+                   :Bank .
+
+
+###  http://www.semanticweb.org/coco#Dorpstad
+:Dorpstad rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/coco#Fake_Anti_Virus_Fraud
+:Fake_Anti_Virus_Fraud rdf:type owl:NamedIndividual ,
+                                :StoryType .
+
+
+###  http://www.semanticweb.org/coco#Friend-in-need_Fraud
+:Friend-in-need_Fraud rdf:type owl:NamedIndividual ,
+                               :StoryType .
+
+
+###  http://www.semanticweb.org/coco#Investment_Fraud
+:Investment_Fraud rdf:type owl:NamedIndividual ,
+                           :StoryType .
+
+
+###  http://www.semanticweb.org/coco#KKK
+:KKK rdf:type owl:NamedIndividual ,
+              :CriminalGroup .
+
+
+###  http://www.semanticweb.org/coco#MMM
+:MMM rdf:type owl:NamedIndividual ,
+              :CriminalGroup .
+
+
+###  http://www.semanticweb.org/coco#Whatsapp_Fraud
+:Whatsapp_Fraud rdf:type owl:NamedIndividual ,
+                         :StoryType .
+
+
+###  http://www.semanticweb.org/coco#accountmanipulation
+:accountmanipulation rdf:type owl:NamedIndividual ,
+                              :AccountManipulaiton ;
+                     :PPisPartOf :changelimitsactivity1 ;
+                     :precedes :otpaccess .
+
+
+###  http://www.semanticweb.org/coco#bankaccount101
+:bankaccount101 rdf:type owl:NamedIndividual ,
+                         :BankAccountInformation ;
+                :OOisPartOf :BankofBohemia .
+
+
+###  http://www.semanticweb.org/coco#bankaccount102
+:bankaccount102 rdf:type owl:NamedIndividual ,
+                         :BankAccountInformation ;
+                :OOisPartOf :BankofTwente .
+
+
+###  http://www.semanticweb.org/coco#bankaccount201
+:bankaccount201 rdf:type owl:NamedIndividual ,
+                         :BankAccountInformation ;
+                :OOisPartOf :Barclays .
+
+
+###  http://www.semanticweb.org/coco#bankaccount202
+:bankaccount202 rdf:type owl:NamedIndividual ,
+                         :BankAccountInformation ;
+                :OOisPartOf :CitiBank .
+
+
+###  http://www.semanticweb.org/coco#banktransfer101
+:banktransfer101 rdf:type owl:NamedIndividual ,
+                          :BankTransferActivity ;
+                 :hasAgent :transfermaker101 ;
+                 :hasParticipant :bankaccount101 ,
+                                 :bankaccount102 .
+
+
+###  http://www.semanticweb.org/coco#banktransfer201
+:banktransfer201 rdf:type owl:NamedIndividual ,
+                          :BankTransferActivity ;
+                 :hasAgent :victim201 ;
+                 :hasParticipant :bankaccount201 ,
+                                 :bankaccount202 .
+
+
+###  http://www.semanticweb.org/coco#callingactivity1
+:callingactivity1 rdf:type owl:NamedIndividual ,
+                           :CallingActivity ;
+                  :hasAgent :contacter101 ,
+                            :victim101 ;
+                  :hasParticipant :story .
+
+
+###  http://www.semanticweb.org/coco#cashwithdrawal101
+:cashwithdrawal101 rdf:type owl:NamedIndividual ,
+                            :WithdrawingMoneyActivity ;
+                   :hasAgent :collector101 ;
+                   :hasParticipant :ATM1 .
+
+
+###  http://www.semanticweb.org/coco#cashwithdrawal102
+:cashwithdrawal102 rdf:type owl:NamedIndividual ,
+                            :WithdrawingMoneyActivity ;
+                   :hasAgent :collector101 ;
+                   :hasParticipant :ATM2 .
+
+
+###  http://www.semanticweb.org/coco#changelimitsactivity1
+:changelimitsactivity1 rdf:type owl:NamedIndividual ,
+                                :ChangeLimitsActivity ;
+                       :hasAgent :contacter101 ;
+                       :hasParticipant :bankaccount101 .
+
+
+###  http://www.semanticweb.org/coco#collectingactivity101
+:collectingactivity101 rdf:type owl:NamedIndividual ,
+                                :CollectingActivity ;
+                       :hasAgent :collector101 ;
+                       :hasParticipant :debitcard101 .
+
+
+###  http://www.semanticweb.org/coco#collector101
+:collector101 rdf:type owl:NamedIndividual ,
+                       :Collector ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/coco#contacter101
+:contacter101 rdf:type owl:NamedIndividual ,
+                       :Contacter ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/coco#contacter201
+:contacter201 rdf:type owl:NamedIndividual ,
+                       :Contacter ;
+              :RRisPartOf :MMM .
+
+
+###  http://www.semanticweb.org/coco#credentialaccess
+:credentialaccess rdf:type owl:NamedIndividual ,
+                           :CredentialAccessActivity ;
+                  :PPisPartOf :screenshareactivity1 ;
+                  :precedes :accountmanipulation .
+
+
+###  http://www.semanticweb.org/coco#debitcard101
+:debitcard101 rdf:type owl:NamedIndividual ,
+                       :BankAccountCard .
+
+
+###  http://www.semanticweb.org/coco#debitcard_reader101
+:debitcard_reader101 rdf:type owl:NamedIndividual ,
+                              :BankAccountCardReader .
+
+
+###  http://www.semanticweb.org/coco#developer101
+:developer101 rdf:type owl:NamedIndividual ,
+                       :Developer ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/coco#downloadsoftware101
+:downloadsoftware101 rdf:type owl:NamedIndividual ,
+                              :DownloadSoftwareActivity ;
+                     :hasAgent :victim101 ;
+                     :hasParticipant :Anydesk .
+
+
+###  http://www.semanticweb.org/coco#dummycall
+:dummycall rdf:type owl:NamedIndividual ,
+                    :CallingActivity ;
+           :hasAgent :dummycontact .
+
+
+###  http://www.semanticweb.org/coco#dummycontact
+:dummycontact rdf:type owl:NamedIndividual ,
+                       :Contacter ;
+              :RRisPartOf :MMM .
+
+
+###  http://www.semanticweb.org/coco#establishtrust
+:establishtrust rdf:type owl:NamedIndividual ,
+                         :GainTrustActivity ;
+                :hasParticipant :story ;
+                :precedes :credentialaccess .
+
+
+###  http://www.semanticweb.org/coco#establishtrust2
+:establishtrust2 rdf:type owl:NamedIndividual ,
+                          :GainTrustActivity ;
+                 :hasParticipant :story2 .
+
+
+###  http://www.semanticweb.org/coco#home101
+:home101 rdf:type owl:NamedIndividual ,
+                  :ResidentialInformation .
+
+
+###  http://www.semanticweb.org/coco#home201
+:home201 rdf:type owl:NamedIndividual ,
+                  :ResidentialInformation .
+
+
+###  http://www.semanticweb.org/coco#impact
+:impact rdf:type owl:NamedIndividual ,
+                 :Impact ;
+        :PPisPartOf :banktransfer101 ,
+                    :cashwithdrawal101 ,
+                    :cashwithdrawal102 .
+
+
+###  http://www.semanticweb.org/coco#initialcontact
+:initialcontact rdf:type owl:NamedIndividual ,
+                         :InitialContact ;
+                :PPisPartOf :callingactivity1 ;
+                :precedes :establishtrust .
+
+
+###  http://www.semanticweb.org/coco#initialcontact2
+:initialcontact2 rdf:type owl:NamedIndividual ,
+                          :InitialContact ;
+                 :PPisPartOf :messageactivity2 ;
+                 :precedes :establishtrust2 .
+
+
+###  http://www.semanticweb.org/coco#laptop101
+:laptop101 rdf:type owl:NamedIndividual ,
+                    :Laptop .
+
+
+###  http://www.semanticweb.org/coco#messageactivity2
+:messageactivity2 rdf:type owl:NamedIndividual ,
+                           :MessageActivity ;
+                  :hasAgent :contacter201 ,
+                            :victim201 ;
+                  :hasParticipant :story2 .
+
+
+###  http://www.semanticweb.org/coco#mobile201
+:mobile201 rdf:type owl:NamedIndividual ,
+                    :Mobile .
+
+
+###  http://www.semanticweb.org/coco#mobilecontact101
+:mobilecontact101 rdf:type owl:NamedIndividual ,
+                           :ContactInformation .
+
+
+###  http://www.semanticweb.org/coco#mobilecontact102
+:mobilecontact102 rdf:type owl:NamedIndividual ,
+                           :ContactInformation .
+
+
+###  http://www.semanticweb.org/coco#mobilecontact201
+:mobilecontact201 rdf:type owl:NamedIndividual ,
+                           :ContactInformation .
+
+
+###  http://www.semanticweb.org/coco#mobilecontact202
+:mobilecontact202 rdf:type owl:NamedIndividual ,
+                           :ContactInformation .
+
+
+###  http://www.semanticweb.org/coco#moneymule101
+:moneymule101 rdf:type owl:NamedIndividual ,
+                       :MoneyMule ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/coco#moneymule201
+:moneymule201 rdf:type owl:NamedIndividual ,
+                       :MoneyMule ;
+              :RRisPartOf :MMM .
+
+
+###  http://www.semanticweb.org/coco#otpaccess
+:otpaccess rdf:type owl:NamedIndividual ,
+                    :GainOTPActivity ;
+           :PPisPartOf :visitingactivity101 ;
+           :precedes :impact .
+
+
+###  http://www.semanticweb.org/coco#person101
+:person101 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :bankaccount101 ,
+                       :home101 ,
+                       :laptop101 ,
+                       :mobilecontact101 ;
+           :hasRole :victim101 .
+
+
+###  http://www.semanticweb.org/coco#person102
+:person102 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :mobilecontact102 ;
+           :hasRole :contacter101 .
+
+
+###  http://www.semanticweb.org/coco#person103
+:person103 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasRole :collector101 .
+
+
+###  http://www.semanticweb.org/coco#person104
+:person104 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :bankaccount102 ;
+           :hasRole :moneymule101 .
+
+
+###  http://www.semanticweb.org/coco#person105
+:person105 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasRole :transfermaker101 .
+
+
+###  http://www.semanticweb.org/coco#person201
+:person201 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :bankaccount201 ,
+                       :home201 ,
+                       :mobilecontact201 ;
+           :hasRole :victim201 .
+
+
+###  http://www.semanticweb.org/coco#person202
+:person202 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :mobilecontact202 ;
+           :hasRole :contacter201 .
+
+
+###  http://www.semanticweb.org/coco#person203
+:person203 rdf:type owl:NamedIndividual ,
+                    :Person ;
+           :hasFeature :bankaccount202 ;
+           :hasRole :moneymule201 .
+
+
+###  http://www.semanticweb.org/coco#recruiter101
+:recruiter101 rdf:type owl:NamedIndividual ,
+                       :Recruiter ;
+              :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/coco#screenshareactivity1
+:screenshareactivity1 rdf:type owl:NamedIndividual ,
+                               :GainDeviceAccessActivity ;
+                      :hasAgent :contacter101 ;
+                      :hasParticipant :laptop101 .
+
+
+###  http://www.semanticweb.org/coco#story
+:story rdf:type owl:NamedIndividual ,
+                :Story ;
+       :OOisPartOf :Bankhelpdesk_Fraud .
+
+
+###  http://www.semanticweb.org/coco#story2
+:story2 rdf:type owl:NamedIndividual ,
+                 :Story ;
+        :OOisPartOf :Friend-in-need_Fraud .
+
+
+###  http://www.semanticweb.org/coco#transfermaker101
+:transfermaker101 rdf:type owl:NamedIndividual ,
+                           :BankTransferMaker ;
+                  :RRisPartOf :KKK .
+
+
+###  http://www.semanticweb.org/coco#victim101
+:victim101 rdf:type owl:NamedIndividual ,
+                    :Victim .
+
+
+###  http://www.semanticweb.org/coco#victim201
+:victim201 rdf:type owl:NamedIndividual ,
+                    :Victim .
+
+
+###  http://www.semanticweb.org/coco#visitingactivity101
+:visitingactivity101 rdf:type owl:NamedIndividual ,
+                              :VisitingActivity ;
+                     :PPisPartOf :collectingactivity101 ;
+                     :hasAgent :collector101 ;
+                     :hasParticipant :home101 .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
