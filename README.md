@@ -1,10 +1,10 @@
 # COCO: Ontology for Organized Cybercrime
-the Ontology for Organized Cybercrime (COCO) builds upon existing frameworks such as MITRE ATT\&CK and the Unified Cyber Ontology (UCO), enriched by analysis of 22 real-world cases and domain expert interviews, to model the structural and operational aspects of organized financial fraud. Aligned with upper-level ontologies, COCO is designed for interoperability and extensibility.
+Ontology for Organized Cybercrime (COCO) builds upon existing frameworks such as MITRE ATT\&CK and the Unified Cyber Ontology (UCO), enriched by analysis of 22 real-world cases and domain expert interviews, to model the structural and operational aspects of organized financial fraud. Aligned with upper-level ontologies, COCO is designed for interoperability and extensibility.
 
 ## Repository Structure
 This repository contains the following resources:
 
-The COCO Ontology in [RDF/Turtle](ontology/COCO_Turtle.ttl), Example instances for the ontolohy [RDF/Turtle](ontology/COCO_Instances.ttl), \
+The COCO Ontology in [RDF/Turtle](ontology/COCO_Turtle.ttl), Example instances for the ontology [RDF/Turtle](ontology/COCO_Instances.ttl), \
 Ontology [Documentation and corresponding visualizations](./documentation/description.md)
 
 [Evaluation Results (competency questions + queries)](./documentation/Validation.md) \
